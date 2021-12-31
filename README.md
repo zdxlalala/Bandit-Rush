@@ -26,10 +26,10 @@ Different tower types: The user will be able to choose different towers to defen
 - Impact: More interactive game with more strategic choices.
 - Alternative: 2 kinds of towers for defense.
 Devices:
-● Keyboard input for camera control
-● Mouse input for placing the castles and walls, also for selecting levels and tower
+- Keyboard input for camera control
+- Mouse input for placing the castles and walls, also for selecting levels and tower
 types to insert on the map.
-● Space bar to center the map
+- Space bar to center the map
 Concepts:
  Starting menu screen. Load and Start options will load existing game or start a new one Respectively.
 
@@ -45,54 +45,55 @@ Development Plan:
 Provide a list of tasks that your team will work on for each of the weekly deadlines. Account for some testing time and potential delays, as well as describing alternative options (plan B). Include all the major features you plan on implementing (no code).
 Skeletal Game
 Week Sep 27:
-● Hello World project
-● Set up HUD (not implemented), kb/m support
-● Planning map
-● Spawning Enemies
+- Hello World project
+- Set up HUD (not implemented), kb/m support
+- Planning map
+- Spawning Enemies
 Week Oct 4:
-● Add gold stealing (not implemented)
-● Basic AI for enemies to run to middle
-● Add in simple Graphics/Animations
-● Simple Turret/killing (not implemented)
-● Basic collision detection and resolution
+- Add gold stealing (not implemented)
+- Basic AI for enemies to run to middle
+- Add in simple Graphics/Animations
+- Simple Turret/killing (not implemented)
+- Basic collision detection and resolution
 Minimum Playability (MS1 Oct 8)
 Week Oct 11:
-● Help
+- Help
 Week Oct 18:
-● Add in different Enemy/Turret types
-● Adaptive Resolution
-● Add wall
+- Add in different Enemy/Turret types
+- Adaptive Resolution
+- Add wall
 Week Oct 25:
-● Debugging/buffer time
+- Debugging/buffer time
 Playability (MS2 Oct 29)
+
 Week Nov 1:
- ● Camera Control/Map movement (added)
- ● Simple path finding (added)
- ● Observer pattern (added)
- ● Add gold stealing, round start/end calculation
- ● Sprite Animation (implemented in M1)
- ● Level loading + Save
+ - Camera Control/Map movement (added)
+ - Simple path finding (added)
+ - Observer pattern (added)
+ - Add gold stealing, round start/end calculation
+ - Sprite Animation (implemented in M1)
+ - Level loading + Save
  Projectiles for turret (added)
- ● Collision and resolution of arrow with enemy (added)
- ● Main game menu (added)
- ● Added in state machine (added)
- ● Enemy collision resolution with wall/turret (added)
- ● Adjust Enemy AI to route around turrets and walls 
- ● Story
+ - Collision and resolution of arrow with enemy (added)
+ - Main game menu (added)
+ - Added in state machine (added)
+ - Enemy collision resolution with wall/turret (added)
+ - Adjust Enemy AI to route around turrets and walls 
+ - Story
 Week Nov 8:
-● Dynamically generating number of enemies based on round
+- Dynamically generating number of enemies based on round
 Week Nov 15:
-● Debugging/buffer time
+- Debugging/buffer time
 Final Game (MS3 Nov19)
 Week Nov 22:
-● Different Turret/Enemy
-● Animation and rendering 
-● Tutorial
-● Balancing
-● Lighting
-● Save and Reload
-● Debug Graphic
-● Game Bar
+- Different Turret/Enemy
+- Animation and rendering 
+- Tutorial
+- Balancing
+- Lighting
+- Save and Reload
+- Debug Graphic
+- Game Bar
 Week Nov 29:
-● Debugging/buffer time
+- Debugging/buffer time
 (MS4 Dec 6)
