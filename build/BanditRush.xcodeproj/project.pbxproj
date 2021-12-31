@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8DB3E490F74C48A8ACF3436C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CB19E395AE7348EFA57882E0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C4285E52058F6C2C3AE56D51 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				68828ADE4FD849879223AAF4 /* PBXTargetDependency */,
+				A65588F25EFD48CA9D474F2A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F7CED214D42B416FA44D3E32 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE29E59B63AB434E957F6DE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5E13B992A062B85CF479788A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07B0BBFF6AD0457F8315BC10 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.hpp */ = {isa = PBXBuildFile; fileRef = 935FBFC333F44E17B6EC98F2 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.hpp */; };
+		0A198BD0CFA34019B176E3AF /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/main.cpp */ = {isa = PBXBuildFile; fileRef = BDC6AE3F6A824FAA87973197 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/main.cpp */; };
+		1DC20C1F78F14DDEAD3F0E3C /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.cpp */ = {isa = PBXBuildFile; fileRef = DA0078DAC32247CA83899459 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.cpp */; };
+		21225B2CDE5A4B74B98876FD /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.cpp */ = {isa = PBXBuildFile; fileRef = 8040B2EE592D49229AF5A7D0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.cpp */; };
+		27301CDCFD1A41BEA52119BB /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.hpp */ = {isa = PBXBuildFile; fileRef = ACE96477FB69452B8EA0A71B /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.hpp */; };
+		27DC8BA99E3E4D6A809F5B62 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system_init.cpp */ = {isa = PBXBuildFile; fileRef = F426AE4986734A2C95484D7C /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system_init.cpp */; };
+		3AA888434F8C43DFB2516CF9 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.cpp */ = {isa = PBXBuildFile; fileRef = A6DC03A83B35468F8D0FFDDD /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.cpp */; };
+		491936F03CA14E1DB04A5A96 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.cpp */ = {isa = PBXBuildFile; fileRef = EE990B66228F4F428353B340 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.cpp */; };
+		4DF8C4F2932B40EDBF342374 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.hpp */ = {isa = PBXBuildFile; fileRef = D6FE806FDE334F8C853B5663 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.hpp */; };
+		5170FE9442FA47C99E7270E5 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.hpp */ = {isa = PBXBuildFile; fileRef = A8DE68B78EE446B68E200A18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.hpp */; };
+		5E473DCEC5144F9CA45D21A0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.hpp */ = {isa = PBXBuildFile; fileRef = 522B13FED19849859E165B68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.hpp */; };
+		5F1B61C0CF7947E486DE9AF3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.cpp */ = {isa = PBXBuildFile; fileRef = EB36D2DE6D0147ECAB70278E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.cpp */; };
+		64150E7BEC7746CBBBB7F561 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.hpp */ = {isa = PBXBuildFile; fileRef = 60531A85A40944F48A5ED83D /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.hpp */; };
+		69B9457248C9412CA80CBAFC /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.cpp */ = {isa = PBXBuildFile; fileRef = 90A7878657854995A8F1FF75 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.cpp */; };
+		9CE5CDAD4E35434AACA19513 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/btree.cpp */ = {isa = PBXBuildFile; fileRef = 87D0DF41543843E2AF0A7F3F /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/btree.cpp */; };
+		A5152E08FF54443C95B979BE /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/json.hpp */ = {isa = PBXBuildFile; fileRef = 6117C6CE99714962930B84EA /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/json.hpp */; };
+		A5C3B590FDE14E219747D8B0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.cpp */ = {isa = PBXBuildFile; fileRef = 767AB0CE91C343D6A2772CCC /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.cpp */; };
+		B4420F0314BA4C1DBCAD1111 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.hpp */ = {isa = PBXBuildFile; fileRef = C1D70F62D01D47C896BE1E68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.hpp */; };
+		C2D2071D1E7141CAA6C6ECF6 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.hpp */ = {isa = PBXBuildFile; fileRef = A200949A82CE4E94A1E294A3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.hpp */; };
+		CA19E96280D84C50A94E6DB9 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.cpp */ = {isa = PBXBuildFile; fileRef = FCF9286E61974199BD77892E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.cpp */; };
+		DB50ABB5E13F46BB912ACB78 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.cpp */ = {isa = PBXBuildFile; fileRef = 75A96B3AE0FF42C080C317B1 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.cpp */; };
+		E834E9AAE338451CBADBC428 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.hpp */ = {isa = PBXBuildFile; fileRef = 38E814F88F26463A895B65A6 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.hpp */; };
+		FDB81C22AF0F4FBEA53CEBB3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3E2FB180F7E4455CA3E8FF18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		396E6ACAB6114EC5B02453F8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5B7798333D634B45A9762B36 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		734B0FD2D7094F4E80D9EDC4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EA45D9B9D43B4A4CA3C9900F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		63E8AE93903948359115032B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F9D2FFC8044648E711558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BC84833BD50456CA9737DB9;
+			remoteInfo = BanditRush;
+		};
+		871B5317417E470E8DF93FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F9D2FFC8044648E711558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CED214D42B416FA44D3E32;
+			remoteInfo = ZERO_CHECK;
+		};
+		87F784EB299743B9B9B45151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73F9D2FFC8044648E711558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CED214D42B416FA44D3E32;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38E814F88F26463A895B65A6 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = physics_system.hpp; path = src/physics_system.hpp; sourceTree = SOURCE_ROOT; };
+		3E2FB180F7E4455CA3E8FF18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		522B13FED19849859E165B68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ai_system.hpp; path = src/ai_system.hpp; sourceTree = SOURCE_ROOT; };
+		60531A85A40944F48A5ED83D /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = world_init.hpp; path = src/world_init.hpp; sourceTree = SOURCE_ROOT; };
+		6117C6CE99714962930B84EA /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = json.hpp; path = src/json.hpp; sourceTree = SOURCE_ROOT; };
+		6331E2F2D6BB4913A8C62B20 /* BanditRush */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BanditRush; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D92A962BEB40BFAB1856E1 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		75A96B3AE0FF42C080C317B1 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ai_system.cpp; path = src/ai_system.cpp; sourceTree = SOURCE_ROOT; };
+		767AB0CE91C343D6A2772CCC /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tiny_ecs.cpp; path = src/tiny_ecs.cpp; sourceTree = SOURCE_ROOT; };
+		8040B2EE592D49229AF5A7D0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = physics_system.cpp; path = src/physics_system.cpp; sourceTree = SOURCE_ROOT; };
+		87D0DF41543843E2AF0A7F3F /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/btree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = btree.cpp; path = src/btree.cpp; sourceTree = SOURCE_ROOT; };
+		90A7878657854995A8F1FF75 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = world_system.cpp; path = src/world_system.cpp; sourceTree = SOURCE_ROOT; };
+		935FBFC333F44E17B6EC98F2 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = world_system.hpp; path = src/world_system.hpp; sourceTree = SOURCE_ROOT; };
+		A200949A82CE4E94A1E294A3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = src/common.hpp; sourceTree = SOURCE_ROOT; };
+		A6DC03A83B35468F8D0FFDDD /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cpp; path = src/common.cpp; sourceTree = SOURCE_ROOT; };
+		A8DE68B78EE446B68E200A18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tiny_ecs.hpp; path = src/tiny_ecs.hpp; sourceTree = SOURCE_ROOT; };
+		ACE96477FB69452B8EA0A71B /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tiny_ecs_registry.hpp; path = src/tiny_ecs_registry.hpp; sourceTree = SOURCE_ROOT; };
+		BDC6AE3F6A824FAA87973197 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		C1D70F62D01D47C896BE1E68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = render_system.hpp; path = src/render_system.hpp; sourceTree = SOURCE_ROOT; };
+		D6FE806FDE334F8C853B5663 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = components.hpp; path = src/components.hpp; sourceTree = SOURCE_ROOT; };
+		DA0078DAC32247CA83899459 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tiny_ecs_registry.cpp; path = src/tiny_ecs_registry.cpp; sourceTree = SOURCE_ROOT; };
+		EB36D2DE6D0147ECAB70278E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = components.cpp; path = src/components.cpp; sourceTree = SOURCE_ROOT; };
+		EE990B66228F4F428353B340 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = render_system.cpp; path = src/render_system.cpp; sourceTree = SOURCE_ROOT; };
+		F426AE4986734A2C95484D7C /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system_init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = render_system_init.cpp; path = src/render_system_init.cpp; sourceTree = SOURCE_ROOT; };
+		FCF9286E61974199BD77892E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = world_init.cpp; path = src/world_init.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB46CBC526CB46A48F3517F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097CDBF224D84A6C9A80C491 = {
+			isa = PBXGroup;
+			children = (
+				FB49AF2A25FB4FAC8B467553 /* BanditRush */,
+				D88DDA9BD44146AE804A9C71 /* ALL_BUILD */,
+				66A6C83E864842FBA2D40C93 /* Products */,
+				C747237DBA934F379E4414F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66A6C83E864842FBA2D40C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6331E2F2D6BB4913A8C62B20 /* BanditRush */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F39D2B06194E809D9D5206 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				522B13FED19849859E165B68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.hpp */,
+				A200949A82CE4E94A1E294A3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.hpp */,
+				D6FE806FDE334F8C853B5663 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.hpp */,
+				6117C6CE99714962930B84EA /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/json.hpp */,
+				38E814F88F26463A895B65A6 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.hpp */,
+				C1D70F62D01D47C896BE1E68 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.hpp */,
+				A8DE68B78EE446B68E200A18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.hpp */,
+				ACE96477FB69452B8EA0A71B /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.hpp */,
+				60531A85A40944F48A5ED83D /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.hpp */,
+				935FBFC333F44E17B6EC98F2 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C747237DBA934F379E4414F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D59663AA6F4D08A258AEDB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A96B3AE0FF42C080C317B1 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.cpp */,
+				87D0DF41543843E2AF0A7F3F /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/btree.cpp */,
+				A6DC03A83B35468F8D0FFDDD /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.cpp */,
+				EB36D2DE6D0147ECAB70278E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.cpp */,
+				BDC6AE3F6A824FAA87973197 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/main.cpp */,
+				8040B2EE592D49229AF5A7D0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.cpp */,
+				EE990B66228F4F428353B340 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.cpp */,
+				F426AE4986734A2C95484D7C /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system_init.cpp */,
+				767AB0CE91C343D6A2772CCC /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.cpp */,
+				DA0078DAC32247CA83899459 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.cpp */,
+				FCF9286E61974199BD77892E /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.cpp */,
+				90A7878657854995A8F1FF75 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D1E9FDC84509422397C81C40 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D88DDA9BD44146AE804A9C71 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D1E9FDC84509422397C81C40 /* CMake Rules */,
+				63D92A962BEB40BFAB1856E1 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FB49AF2A25FB4FAC8B467553 /* BanditRush */ = {
+			isa = PBXGroup;
+			children = (
+				C8D59663AA6F4D08A258AEDB /* Source Files */,
+				93F39D2B06194E809D9D5206 /* Header Files */,
+				3E2FB180F7E4455CA3E8FF18 /* /Users/zhangdongxu/Desktop/CPSC427/team02/CMakeLists.txt */,
+			);
+			name = BanditRush;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BC84833BD50456CA9737DB9 /* BanditRush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758C3217655E442489980082 /* Build configuration list for PBXNativeTarget "BanditRush" */;
+			buildPhases = (
+				E36B94FB8A5A4438A5C52796 /* Sources */,
+				DB46CBC526CB46A48F3517F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7465CD72A9477BB54EB2A4 /* PBXTargetDependency */,
+			);
+			name = BanditRush;
+			productName = BanditRush;
+			productReference = 6331E2F2D6BB4913A8C62B20 /* BanditRush */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B73F9D2FFC8044648E711558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 2198232ACE504A578E884068 /* Build configuration list for PBXProject "BanditRush" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				EA45D9B9D43B4A4CA3C9900F /* Debug */,
+				5B7798333D634B45A9762B36 /* Release */,
+				396E6ACAB6114EC5B02453F8 /* MinSizeRel */,
+				734B0FD2D7094F4E80D9EDC4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 097CDBF224D84A6C9A80C491;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				8DB3E490F74C48A8ACF3436C /* ALL_BUILD */,
+				2BC84833BD50456CA9737DB9 /* BanditRush */,
+				F7CED214D42B416FA44D3E32 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5E13B992A062B85CF479788A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  make -f /Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  make -f /Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  make -f /Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  make -f /Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C4285E52058F6C2C3AE56D51 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/zhangdongxu/Desktop/CPSC427/team02/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/zhangdongxu/Desktop/CPSC427/team02/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36B94FB8A5A4438A5C52796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50ABB5E13F46BB912ACB78 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/ai_system.cpp */,
+				9CE5CDAD4E35434AACA19513 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/btree.cpp */,
+				3AA888434F8C43DFB2516CF9 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/common.cpp */,
+				5F1B61C0CF7947E486DE9AF3 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/components.cpp */,
+				0A198BD0CFA34019B176E3AF /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/main.cpp */,
+				21225B2CDE5A4B74B98876FD /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/physics_system.cpp */,
+				491936F03CA14E1DB04A5A96 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system.cpp */,
+				27DC8BA99E3E4D6A809F5B62 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/render_system_init.cpp */,
+				A5C3B590FDE14E219747D8B0 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs.cpp */,
+				1DC20C1F78F14DDEAD3F0E3C /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/tiny_ecs_registry.cpp */,
+				CA19E96280D84C50A94E6DB9 /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_init.cpp */,
+				69B9457248C9412CA80CBAFC /* /Users/zhangdongxu/Desktop/CPSC427/team02/src/world_system.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68828ADE4FD849879223AAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CED214D42B416FA44D3E32 /* ZERO_CHECK */;
+			targetProxy = 87F784EB299743B9B9B45151 /* PBXContainerItemProxy */;
+		};
+		A65588F25EFD48CA9D474F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BC84833BD50456CA9737DB9 /* BanditRush */;
+			targetProxy = 63E8AE93903948359115032B /* PBXContainerItemProxy */;
+		};
+		CB7465CD72A9477BB54EB2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CED214D42B416FA44D3E32 /* ZERO_CHECK */;
+			targetProxy = 871B5317417E470E8DF93FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0993DF28FE7F4827B5018DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		13FC9B5518774B0C87CDE23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build/build;
+			};
+			name = Debug;
+		};
+		30F97DC0137840428735723D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/zhangdongxu/Desktop/CPSC427/team02/src,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/stb_image,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/gl3w,/usr/local/Cellar/glfw/3.3.4/include,/usr/local/include/SDL2,/usr/local/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework OpenGL","-framework Cocoa","-framework CoreFoundation",/usr/local/lib/libfreetype.dylib,"-lglfw","-lSDL2","-lSDL2_mixer","-lSDL2","-lSDL2_mixer","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BanditRush;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/zhangdongxu/Desktop/CPSC427/team02/ext/glm,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E7A0FBCE4F2434192D26950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3FD6B95A5B23431D94625EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		604C65DC62D242E5A234A3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/zhangdongxu/Desktop/CPSC427/team02/src,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/stb_image,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/gl3w,/usr/local/Cellar/glfw/3.3.4/include,/usr/local/include/SDL2,/usr/local/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework OpenGL","-framework Cocoa","-framework CoreFoundation",/usr/local/lib/libfreetype.dylib,"-lglfw","-lSDL2","-lSDL2_mixer","-lSDL2","-lSDL2_mixer","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BanditRush;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/zhangdongxu/Desktop/CPSC427/team02/ext/glm,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6E17C0090F364FB9A3B9050E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		88E507D23A3841CA80BA0F83 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/zhangdongxu/Desktop/CPSC427/team02/src,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/stb_image,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/gl3w,/usr/local/Cellar/glfw/3.3.4/include,/usr/local/include/SDL2,/usr/local/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework OpenGL","-framework Cocoa","-framework CoreFoundation",/usr/local/lib/libfreetype.dylib,"-lglfw","-lSDL2","-lSDL2_mixer","-lSDL2","-lSDL2_mixer","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BanditRush;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/zhangdongxu/Desktop/CPSC427/team02/ext/glm,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		894D1B089B8F4B37A73CCC49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C5AEE7CBB0543FAA24523A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build/build;
+			};
+			name = MinSizeRel;
+		};
+		AA3F210E882F46548C88DF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/zhangdongxu/Desktop/CPSC427/team02/src,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/stb_image,/Users/zhangdongxu/Desktop/CPSC427/team02/ext/gl3w,/usr/local/Cellar/glfw/3.3.4/include,/usr/local/include/SDL2,/usr/local/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework OpenGL","-framework Cocoa","-framework CoreFoundation",/usr/local/lib/libfreetype.dylib,"-lglfw","-lSDL2","-lSDL2_mixer","-lSDL2","-lSDL2_mixer","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BanditRush;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/zhangdongxu/Desktop/CPSC427/team02/ext/glm,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B12B1E863CEC408C98A8C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build/build;
+			};
+			name = Release;
+		};
+		C99D319CF8BF4509A5B05EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CCE98D87F10A4DDB8ECCD3D1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D4264FFE887648B4AA13A49C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FFA84DAF21D44D17B3077324 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/zhangdongxu/Desktop/CPSC427/team02/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2198232ACE504A578E884068 /* Build configuration list for PBXProject "BanditRush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FC9B5518774B0C87CDE23F /* Debug */,
+				B12B1E863CEC408C98A8C443 /* Release */,
+				9C5AEE7CBB0543FAA24523A2 /* MinSizeRel */,
+				6E17C0090F364FB9A3B9050E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		758C3217655E442489980082 /* Build configuration list for PBXNativeTarget "BanditRush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F210E882F46548C88DF7D /* Debug */,
+				604C65DC62D242E5A234A3EF /* Release */,
+				30F97DC0137840428735723D /* MinSizeRel */,
+				88E507D23A3841CA80BA0F83 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE29E59B63AB434E957F6DE7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD6B95A5B23431D94625EBF /* Debug */,
+				0993DF28FE7F4827B5018DF4 /* Release */,
+				D4264FFE887648B4AA13A49C /* MinSizeRel */,
+				FFA84DAF21D44D17B3077324 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB19E395AE7348EFA57882E0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7A0FBCE4F2434192D26950 /* Debug */,
+				C99D319CF8BF4509A5B05EFF /* Release */,
+				894D1B089B8F4B37A73CCC49 /* MinSizeRel */,
+				CCE98D87F10A4DDB8ECCD3D1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B73F9D2FFC8044648E711558 /* Project object */;
+}
